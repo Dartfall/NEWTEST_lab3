@@ -43,4 +43,4 @@ public class Radiation extends AbstractCharacteristic
                 update(e);
         }
     }
-}
+}//5 puk
