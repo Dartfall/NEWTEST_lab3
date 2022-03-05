@@ -28,7 +28,7 @@ public class GameField {
     }
 
     public int height() {
-        return CellPosition.verticalRange().length();
+        return CellPosition.verticalRange().length(); //comment
     }
 	
 
