@@ -33,7 +33,7 @@ public class Direction
     
     @Override
     public Direction clone(){ 
-        return new Direction(this._angle); 
+        return new Direction(this._angle); //asdasdas
     }
   
     public Direction clockwise() { 
