@@ -19,16 +19,16 @@ public class GameField {
         
     public final void setSize(int width, int height)
     {
-        CellPosition.setHorizontalRange(2, width);
+        CellPosition.setHorizontalRange(1, width);
         CellPosition.setVerticalRange(1, height);
     }
 
     public int width() {
-        return CellPosition.horizontalRange().length();// main
+        return CellPosition.horizontalRange().length();
     }
 
     public int height() {
-        return CellPosition.verticalRange().length(); //comment
+        return CellPosition.verticalRange().length();
     }
 	
 
@@ -41,7 +41,7 @@ public class GameField {
     {
         if(robot!=null && _robot!=robot) {
             if (_robot != null) {
-                removeRobot(); //new
+                removeRobot();
             }
 
             _robot = robot;
