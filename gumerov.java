@@ -18,7 +18,7 @@ public class Temperature extends AbstractCharacteristic
 
     @Override
     public Color drawColor() {
-        return new Color(73,173,0,70);
+        return new Color(0,0,0,70);
     }
 
     @Override
@@ -29,7 +29,7 @@ public class Temperature extends AbstractCharacteristic
     @Override
     public void update(EventObject event)
     {
-        if(value()<100)
+        if(value()<300)
             setValue(value()+2);
     }
 
