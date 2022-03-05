@@ -5,7 +5,7 @@ public class Direction
    
     private int _angle = 90;
 
-    private Direction(int angle)
+    private Direction(int angle) //sadasdadads
     {
      
         angle = angle%360;
