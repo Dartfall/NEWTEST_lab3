@@ -1,7 +1,7 @@
 package brokenrobotgame.model.characteristics;
 
 import brokenrobotgame.model.GameField;
-import brokenrobotgame.model.characteristics.AbstractCharacteristic;
+import brokenrobotgame.model.characteristics.AbstractCharacteristic;//1 to my branch
 import brokenrobotgame.model.events.RobotActionEvent;
 import brokenrobotgame.model.events.RobotActionListener;
 import brokenrobotgame.model.navigation.CellPosition;
@@ -43,4 +43,4 @@ public class Radiation extends AbstractCharacteristic
                 update(e);
         }
     }
-}
+}//5 puk

@@ -10,8 +10,8 @@ import java.util.EventObject;
 
 public class Smoke extends AbstractCharacteristic
 {
-    public Smoke (GameField field, int value)   {
-        super(field, value);
+    public Smoke (GameField field, int valu)   {
+        super(field, valu);
     }
 
     @Override
@@ -28,7 +28,7 @@ public class Smoke extends AbstractCharacteristic
     public void update(EventObject event)
     {
         if(value()>0)
-            setValue(value()-2);
+            setValue(value()-1);
     }
 
     public class SmokeDecreases implements RobotActionListener
