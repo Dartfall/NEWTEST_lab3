@@ -28,7 +28,7 @@ public class Smoke extends AbstractCharacteristic
     public void update(EventObject event)
     {
         if(value()>0)
-            setValue(value()-2);
+            setValue(value()-1);
     }
 
     public class SmokeDecreases implements RobotActionListener
