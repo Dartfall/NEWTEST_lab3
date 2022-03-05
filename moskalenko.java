@@ -5,7 +5,7 @@ public class Direction
    
     private int _angle = 90;
 
-    private Direction(int angle)
+    private Direction(int angle) //sadasdadads
     {
      
         angle = angle%360;
@@ -33,7 +33,7 @@ public class Direction
     
     @Override
     public Direction clone(){ 
-        return new Direction(this._angle); 
+        return new Direction(this._angle); //asdasdas
     }
   
     public Direction clockwise() { 
