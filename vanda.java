@@ -40,7 +40,7 @@ public class Radiation extends AbstractCharacteristic//1 to main
         public void robotMadeMove(RobotActionEvent e)
         {
 
-                update(e);
+                update(e);//random to main
         }
     }
 }
