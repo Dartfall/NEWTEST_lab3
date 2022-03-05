@@ -9,7 +9,7 @@ import brokenrobotgame.model.navigation.CellPosition;
 import java.awt.*;
 import java.util.EventObject;
 
-public class Radiation extends AbstractCharacteristic
+public class Radiation extends AbstractCharacteristic//1 to main
 {
     public Radiation(GameField field, int val)
     {
