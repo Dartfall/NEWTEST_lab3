@@ -4,4 +4,6 @@ import java.util.EventListener;
 
 public interface RobotActionListener extends EventListener {
     void robotMadeMove(RobotActionEvent e);
+
+    public int newAction() { doSmth; }
 }
