@@ -16,7 +16,7 @@ public class Direction
     
     
     
-    public static Direction north()
+    public static Direction north() //sadasdas
     { return new Direction(90); }
     
     public static Direction south()
