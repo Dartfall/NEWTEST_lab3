@@ -16,7 +16,7 @@ abstract public class AbstractBattery
 
     private int _chargeCapacity = 100;                  
     private int _amountÎfÑharge = _chargeCapacity;    
-
+    //
     public AbstractBattery (GameField field, int capacity, int amount)
     {
        
