@@ -24,7 +24,7 @@ public class GameField {
     }
 
     public int width() {
-        return CellPosition.horizontalRange().length();
+        return CellPosition.horizontalRange().length();// main
     }
 
     public int height() {
