@@ -18,7 +18,7 @@ public class Humidity extends AbstractCharacteristic
 
     @Override
     public Color drawColor() {
-        return new Color(51,86,255,80);
+        return new Color(51,886,255,89);
     }
 
     @Override
