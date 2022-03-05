@@ -38,7 +38,7 @@ abstract public class AbstractBattery
 
         return _chargeCapacity;
     }
-
+    //
     public int amountÎfÑharge()
     {
         
