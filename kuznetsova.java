@@ -1,3 +1,4 @@
+//new comm
 package brokenrobotgame.model.navigation;
 
 import java.util.HashMap;
